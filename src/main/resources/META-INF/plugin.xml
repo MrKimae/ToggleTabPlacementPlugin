@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>com.keir.toggletabplacement</id>
+    <name>Toggle Tab Placement</name>
+    <vendor>Keir</vendor>
+
+    <description><![CDATA[
+        Toggles the editor tab placement between Top and Left with a single action.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action id="ToggleTabPlacementTopLeft"
+                class="com.keir.toggletabplacement.ToggleTabPlacementAction"
+                text="Toggle Tab Placement Top Left"
+                description="Toggles editor tab placement between Top and Left">
+        </action>
+    </actions>
+</idea-plugin>
